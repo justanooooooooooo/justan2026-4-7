@@ -19,6 +19,31 @@ const products = [
     price: 70,
     image: "https://city9.tw/cdn/shop/products/red-bull-940214.png?v=1701171430"
   }
+  {
+    name: "特上紅茶",
+    price: 35,
+    image: "https://img.yec.tw/zp/MerchandiseImages/de9855922d-Gd-5169846.jpg"
+  }{
+    name: "RED BULL",
+    price: 70,
+    image: "https://city9.tw/cdn/shop/products/red-bull-940214.png?v=1701171430"
+  }{
+    name: "RED BULL",
+    price: 70,
+    image: "https://city9.tw/cdn/shop/products/red-bull-940214.png?v=1701171430"
+  }{
+    name: "RED BULL",
+    price: 70,
+    image: "https://city9.tw/cdn/shop/products/red-bull-940214.png?v=1701171430"
+  }{
+    name: "RED BULL",
+    price: 70,
+    image: "https://city9.tw/cdn/shop/products/red-bull-940214.png?v=1701171430"
+  }{
+    name: "RED BULL",
+    price: 70,
+    image: "https://city9.tw/cdn/shop/products/red-bull-940214.png?v=1701171430"
+  }
 ];
 
 let cart = [];
