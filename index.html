@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justan Online Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Justan Online Store</h1>
+    <p>No backend required — opens your email client</p>
+  </header>
+
+  <main class="container">
+    <section class="products-section">
+      <h2>Products</h2>
+      <p>Select items and click "Add to Cart"</p>
+      <div id="products" class="products-grid"></div>
+    </section>
+
+    <section class="cart-section">
+      <h2>Your Cart</h2>
+      <div id="cart-items">
+        <p class="empty-cart">Cart is empty</p>
+      </div>
+
+      <div class="subtotal-box">
+        <h3>Subtotal</h3>
+        <p id="subtotal">$0.00</p>
+      </div>
+
+      <div class="checkout-box">
+        <h3>Checkout details</h3>
+
+        <label for="fullName">Full name</label>
+        <input type="text" id="fullName" placeholder="Enter your full name" />
+
+        <label for="email">Your email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+
+        <label for="address">Shipping address</label>
+        <textarea id="address" placeholder="Enter your shipping address"></textarea>
+
+        <label for="notes">Notes (optional)</label>
+        <textarea id="notes" placeholder="Any extra notes"></textarea>
+
+        <div class="button-group">
+          <button id="checkoutBtn">Checkout by Email</button>
+          <button id="copyBtn" type="button">Copy order text</button>
+        </div>
+
+        <p class="note">
+          Note: Clicking "Checkout by Email" will open your email app with a pre-filled message.
+          The email won't be sent until you press send in your email client.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with ❤️ — Save this file and open it in a browser to test.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
