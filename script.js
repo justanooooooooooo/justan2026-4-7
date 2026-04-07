@@ -5,19 +5,19 @@ const products = [
     image: "https://web.hocom.tw/Uploads/Product/148624_483501185433.jpg"
   },
   {
-    name: "Potato Chips",
-    price: 35,
-    image: "https://via.placeholder.com/300x200?text=Potato+Chips"
+    name: "麥香綠茶",
+    price: 15,
+    image: "https://web.hocom.tw/Uploads/Product/s/25003/148630_374577231671.jpg"
   },
   {
-    name: "Chocolate Milk",
-    price: 50,
-    image: "https://via.placeholder.com/300x200?text=Chocolate+Milk"
+    name: "麥香奶茶",
+    price: 15,
+    image: "https://web.hocom.tw/Uploads/Product/s/25003/148632_742701449649.jpg"
   },
   {
-    name: "Cookies",
-    price: 40,
-    image: "https://via.placeholder.com/300x200?text=Cookies"
+    name: "RED BULL",
+    price: 70,
+    image: "https://city9.tw/cdn/shop/products/red-bull-940214.png?v=1701171430"
   }
 ];
 
