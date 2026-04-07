@@ -1,8 +1,8 @@
 const products = [
   {
-    name: "Instant Noodles",
-    price: 45,
-    image: "https://via.placeholder.com/300x200?text=Instant+Noodles"
+    name: "麥香紅茶",
+    price: 15,
+    image: "https://web.hocom.tw/Uploads/Product/148624_483501185433.jpg"
   },
   {
     name: "Potato Chips",
