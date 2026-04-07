@@ -17,7 +17,7 @@ const products = [
   {
     name: "RED BULL",
     price: 70,
-    image: "https://city9.tw/products/red-bull-%E7%B4%85%E7%89%9B?srsltid=AfmBOopCKBWhPxgbJlyJY7S_da8PWkHMdUVlrO0bGA52zr9kk1av-m04"
+    image: "https://city9.tw/cdn/shop/products/red-bull-940214.png?v=1701171430"
   },
   {
     name: "特上紅茶",
