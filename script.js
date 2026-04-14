@@ -160,7 +160,9 @@ checkoutBtn.addEventListener("click", () => {
   const subject = encodeURIComponent("New Order - Justan Online Store");
   const body = encodeURIComponent(orderText);
 
-  window.location.href = `mailto:yourstoreemail@example.com?subject=${subject}&body=${body}`;
+const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=yourstoreemail@example.com&su=${subject}&body=${body}`;
+
+window.open(gmailURL, "_blank");
 });
 
 copyBtn.addEventListener("click", async () => {
